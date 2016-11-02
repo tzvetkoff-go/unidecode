@@ -30,7 +30,7 @@ push(@INC, $input);
 open(OUT, sprintf(">%s/table.go", $output));
 
 print OUT "//\n";
-print OUT "// AUTOMATICALLY GENERATED - DO NOT EDIT\n";
+print OUT "//go:generate perl generate.pl\n";
 print OUT "//\n";
 print OUT "\n";
 print OUT "package unidecode\n";

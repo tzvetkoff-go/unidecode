@@ -1,5 +1,5 @@
 //
-// AUTOMATICALLY GENERATED - DO NOT EDIT
+//go:generate perl generate.pl
 //
 
 package unidecode
