@@ -24,7 +24,6 @@ func main() {
 
 ## License
 
-The `table.go` file is a translation of the original `x*.pm` files, and as such is subject to [their original license](http://search.cpan.org/~sburke/Text-Unidecode-1.27/lib/Text/Unidecode.pm#
-LICENSE).
+The `table.go` file is a translation of the original `x*.pm` files, and as such is subject to [their original license](http://search.cpan.org/~sburke/Text-Unidecode-1.27/lib/Text/Unidecode.pm#LICENSE).
 
 Anything else is subject to the [MIT license](https://opensource.org/licenses/MIT).
