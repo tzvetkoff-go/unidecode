@@ -12,10 +12,10 @@ sub escape {
 	return $val;
 }
 
-`wget http://search.cpan.org/CPAN/authors/id/S/SB/SBURKE/Text-Unidecode-1.27.tar.gz`;
-`tar xf Text-Unidecode-1.27.tar.gz`;
+`wget http://search.cpan.org/CPAN/authors/id/S/SB/SBURKE/Text-Unidecode-1.30.tar.gz`;
+`tar xf Text-Unidecode-1.30.tar.gz`;
 `mkdir -p pl`;
-`mv Text-Unidecode-1.27/lib/Text/Unidecode/x*.pm pl`;
+`mv Text-Unidecode-1.30/lib/Text/Unidecode/x*.pm pl`;
 
 my $input = "./pl/";
 my $output = "./";
@@ -55,5 +55,5 @@ print OUT "}\n";
 
 close(OUT);
 
-`rm -rf Text-Unidecode-1.27*`;
+`rm -rf Text-Unidecode-1.30*`;
 `rm -rf pl`;
