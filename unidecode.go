@@ -1,6 +1,6 @@
 package unidecode
 
-// `Unidecode` transliterates non-latin characters to their latin equivalents.
+// Unidecode transliterates non-latin characters to their latin equivalents.
 func Unidecode(input string) string {
 	runes := []rune(input)
 	result := ""
