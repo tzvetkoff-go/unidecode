@@ -36,7 +36,7 @@ print OUT "\n";
 print OUT "package unidecode\n";
 print OUT "\n";
 print OUT "// Table ...\n";
-print OUT "var Table = map[rune]string {\n";
+print OUT "var Table = map[rune]string{\n";
 
 for (my $n = 0; $n < 256; ++$n) {
 	eval(sprintf("require x%02x;\n", $n));

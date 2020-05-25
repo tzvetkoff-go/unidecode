@@ -5,7 +5,7 @@
 package unidecode
 
 // Table ...
-var Table = map[rune]string {
+var Table = map[rune]string{
 	// 0x0000 - 0x00ff
 	'\u0000': "\x00",
 	'\u0001': "\x01",
