@@ -1,7 +1,7 @@
 # Unidecode
 
-[![GoDoc](https://godoc.org/github.com/go2c/unidecode?status.svg)](http://godoc.org/github.com/go2c/unidecode)
-[![Build Status](https://travis-ci.org/go2c/unidecode.svg?branch=master)](https://travis-ci.org/go2c/unidecode)
+[![GoDoc](https://godoc.org/github.com/tzvetkoff-go/unidecode?status.svg)](http://godoc.org/github.com/tzvetkoff-go/unidecode)
+[![Build Status](https://travis-ci.org/tzvetkoff-go/unidecode.svg?branch=master)](https://travis-ci.org/tzvetkoff-go/unidecode)
 
 `Unidecode` transliterates non-latin characters to their latin equivalents.
 
@@ -13,7 +13,7 @@ This library is a straight port of the [Text::Unidecode](http://search.cpan.org/
 package main
 
 import (
-	"github.com/go2c/unidecode"
+	"github.com/tzvetkoff-go/unidecode"
 )
 
 func main() {

@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/go2c/unidecode"
+	"github.com/tzvetkoff-go/unidecode"
 )
 
 type test struct {
